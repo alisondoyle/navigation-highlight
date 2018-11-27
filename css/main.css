@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff
+  line-height: 1.5;
+}
+
+* {
+  box-sizing:inherit;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.header {
+  width: 100%
+  background-color: #ffe500;
+  text-align: center;
+  padding-bottom: .75em;
+}
+
+nav ul {
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 1.123rem;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  volour: #fff;
+  padding: .2em .5em .3em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav  a:hover {
+  background-color: #cc1465;
+}
+
+.nav a:current {}
