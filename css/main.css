@@ -44,4 +44,43 @@ nav ul {
   background-color: #cc1465;
 }
 
-.nav a:current {}
+.nav .current {
+  background-color: #cc1465
+}
+
+body {
+  margin:0;
+}
+
+main {
+  margin: .3em;
+}
+
+h1 {
+  font-family: "Sigmar One", cursive;
+  colorL #b20953;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-top: .3em
+  padding: .2em .5em.3em;
+}
+
+h2 {
+  font-family: "Simgar One", cursive;
+  color: #b20953;
+  font-size: 1.875rem;
+  padding: 0;
+  padding-top: .75em;
+  padding-bottomL .75rem;
+  margin-bottom: .3em;
+}
+
+p {
+  margin: .3em
+}
