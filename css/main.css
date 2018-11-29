@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
-  background-color: #fff
+  background-color: #fff;
+  font-family: 'Sigmar One', cursive;
+
   line-height: 1.5;
 }
 
 * {
-  box-sizing:inherit;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -15,10 +17,12 @@ html {
 }
 
 .header {
-  width: 100%
+  width: 100%;
+
   background-color: #ffe500;
+
   text-align: center;
-  padding-bottom: .75em;
+  padding-bottom: .3em;
 }
 
 nav ul {
@@ -33,11 +37,12 @@ nav ul {
 }
 
 .nav a {
-  volour: #fff;
+  color: #fff;
   padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nav  a:hover {
@@ -45,20 +50,21 @@ nav ul {
 }
 
 .nav .current {
-  background-color: #cc1465
+  background-color: #cc1465;
 }
 
 body {
-  margin:0;
+  margin: 0;
 }
 
 main {
-  margin: .3em;
+  margin: .3em 0;
+  padding: 0 .75em;
 }
 
 h1 {
   font-family: "Sigmar One", cursive;
-  colorL #b20953;
+  color: #b20953;
   font-size: 3em;
   margin: 0;
   padding: 0;
@@ -67,30 +73,31 @@ h1 {
 img {
   display: block;
   width: 100%;
-  margin-top: .3em
-  padding: .2em .5em.3em;
+  margin-top: .3em;
+  padding: .2em .5em 3em;
 }
 
 h2 {
-  font-family: "Simgar One", cursive;
+  font-family: 'Sigmar One', cursive;
   color: #b20953;
   font-size: 1.875rem;
   padding: 0;
   padding-top: .75em;
-  padding-bottomL .75rem;
+  padding-bottom: .75rem;
   margin-bottom: .3em;
 }
 
 p {
-  margin: .3em
+  margin: .3em;
   padding-bottom: .75em;
+
   font-family: Georgia, serif;
   margin-top: 0;
   color: #2f2d13;
 }
 
 footer {
-  width: 100%
+  width: 100%;
   background-color: #ffe500;
   text-align: center;
   list-style-type: none;
