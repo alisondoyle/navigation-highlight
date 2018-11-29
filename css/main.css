@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #fff;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
 
   line-height: 1.5;
 }
@@ -45,7 +45,7 @@ nav ul {
   display: inline-block;
 }
 
-.nav  a:hover {
+.nav a:hover {
   background-color: #cc1465;
 }
 
@@ -78,7 +78,7 @@ img {
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   font-size: 1.875rem;
   padding: 0;
